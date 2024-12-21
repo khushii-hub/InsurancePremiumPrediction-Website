@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Nuggets</title>
+    <style>
+        /* Reset basic styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Body and Container Setup */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #834cbd, #6f99e1);
+            color: #333;
+        }
+
+        /* Header Styles */
+        .main-header {
+            width: 100%;
+            background-color: #3969bd;
+            padding: 10px 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        /* Tagline Styling */
+        .tagline {
+            font-size: 16px;
+            color:#dde1ea;
+            font-style: italic;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            height: 40px;
+            width: 40px;
+            margin-right: 10px;
+        }
+
+        .website-name {
+            font-size: 30px;
+            font-weight: bold;
+            color: white;
+            text-align: center; 
+            margin-top: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #cce3ff;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-section">
+            <img src="paw.png" alt="PremiumPaw Logo" class="logo">
+            <span class="website-name">PremiumPaw</span>
+        </div>
+        <p class="tagline">Purr-fect Predictions for Your Insurance Needs</p>
+        <nav class="nav-links">
+            <a href="insurance.html">Home</a>
+            <a href="profile.html">My Profile</a>
+        </nav>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Did you know?</h2>
+            <p>Honey is the only food that never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs that are over 3,000 years old and still edible!</p>
+        </article>
+        <article>
+            <h2>Surprising Food Fact</h2>
+            <p>Bananas are berries, but strawberries aren’t! Botanically speaking, bananas fit the criteria of berries, while strawberries do not.</p>
+        </article>
+        <article>
+            <h2>Carrots Were Purple?</h2>
+            <p>Before the 17th century, most carrots were purple or white. Orange carrots were cultivated later to honor the Dutch royal family.</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 Health Nuggets Blog</p>
+    </footer>
+</body>
+</html>

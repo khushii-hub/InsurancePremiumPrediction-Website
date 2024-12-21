@@ -1,0 +1,297 @@
+2024-11-27 18:55:38,338 - INFO - Loading model and preprocessor...
+2024-11-27 18:55:39,221 - INFO - Model loaded successfully.
+2024-11-27 18:55:39,229 - INFO - Preprocessor loaded successfully.
+2024-11-27 18:55:39,250 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-27 18:55:39,251 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-27 18:55:39,252 - INFO -  * Restarting with stat
+2024-11-27 18:55:39,870 - INFO - Loading model and preprocessor...
+2024-11-27 18:55:40,588 - INFO - Model loaded successfully.
+2024-11-27 18:55:40,597 - INFO - Preprocessor loaded successfully.
+2024-11-27 18:55:40,607 - WARNING -  * Debugger is active!
+2024-11-27 18:55:40,614 - INFO -  * Debugger PIN: 198-287-974
+2024-11-27 18:58:12,516 - INFO - 127.0.0.1 - - [27/Nov/2024 18:58:12] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 18:58:12,529 - INFO - Received data: {'age': 18, 'bmi': 22, 'sex': 'male', 'smoker': 'yes', 'region': 'northwest', 'children': 0}
+2024-11-27 18:58:12,562 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   18   22         0  male    yes  northwest
+2024-11-27 18:58:12,574 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 18:58:12,583 - INFO - Prediction result: 14361.650390625
+2024-11-27 18:58:12,585 - INFO - 127.0.0.1 - - [27/Nov/2024 18:58:12] "POST /predict HTTP/1.1" 200 -
+2024-11-27 18:58:13,027 - INFO - 127.0.0.1 - - [27/Nov/2024 18:58:13] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 18:58:13,039 - INFO - Received data: {'age': 18, 'bmi': 22, 'sex': 'male', 'smoker': 'yes', 'region': 'northwest', 'children': 0}
+2024-11-27 18:58:13,067 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   18   22         0  male    yes  northwest
+2024-11-27 18:58:13,078 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 18:58:13,092 - INFO - Prediction result: 14361.650390625
+2024-11-27 18:58:13,095 - INFO - 127.0.0.1 - - [27/Nov/2024 18:58:13] "POST /predict HTTP/1.1" 200 -
+2024-11-27 19:24:13,932 - INFO - Loading model and preprocessor...
+2024-11-27 19:24:14,800 - INFO - Model loaded successfully.
+2024-11-27 19:24:14,810 - INFO - Preprocessor loaded successfully.
+2024-11-27 19:24:14,832 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-27 19:24:14,832 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-27 19:24:14,834 - INFO -  * Restarting with stat
+2024-11-27 19:24:15,470 - INFO - Loading model and preprocessor...
+2024-11-27 19:24:16,164 - INFO - Model loaded successfully.
+2024-11-27 19:24:16,172 - INFO - Preprocessor loaded successfully.
+2024-11-27 19:24:16,181 - WARNING -  * Debugger is active!
+2024-11-27 19:24:16,183 - INFO -  * Debugger PIN: 198-287-974
+2024-11-27 19:24:20,120 - INFO - 127.0.0.1 - - [27/Nov/2024 19:24:20] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 19:24:20,128 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'no', 'region': 'southeast', 'children': 0}
+2024-11-27 19:24:20,150 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female     no  southeast
+2024-11-27 19:24:20,160 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 19:24:20,166 - INFO - Prediction result: 3020.759765625
+2024-11-27 19:24:20,167 - INFO - 127.0.0.1 - - [27/Nov/2024 19:24:20] "POST /predict HTTP/1.1" 200 -
+2024-11-27 19:25:58,915 - INFO - 127.0.0.1 - - [27/Nov/2024 19:25:58] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 19:25:58,921 - INFO - Received data: {'age': 21, 'bmi': 40, 'sex': 'female', 'smoker': 'no', 'region': 'southeast', 'children': 0}
+2024-11-27 19:25:58,936 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   40         0  female     no  southeast
+2024-11-27 19:25:58,943 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 19:25:58,956 - INFO - Prediction result: 2250.54248046875
+2024-11-27 19:25:58,957 - INFO - 127.0.0.1 - - [27/Nov/2024 19:25:58] "POST /predict HTTP/1.1" 200 -
+2024-11-27 19:26:15,558 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:15] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 19:26:15,568 - INFO - Received data: {'age': 21, 'bmi': 30, 'sex': 'female', 'smoker': 'no', 'region': 'southeast', 'children': 0}
+2024-11-27 19:26:15,595 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   30         0  female     no  southeast
+2024-11-27 19:26:15,610 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 19:26:15,629 - INFO - Prediction result: 3820.490478515625
+2024-11-27 19:26:15,631 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:15] "POST /predict HTTP/1.1" 200 -
+2024-11-27 19:26:22,219 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:22] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 19:26:22,230 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'no', 'region': 'southeast', 'children': 0}
+2024-11-27 19:26:22,253 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female     no  southeast
+2024-11-27 19:26:22,262 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 19:26:22,274 - INFO - Prediction result: 3020.759765625
+2024-11-27 19:26:22,276 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:22] "POST /predict HTTP/1.1" 200 -
+2024-11-27 19:26:34,096 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:34] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 19:26:34,106 - INFO - Received data: {'age': 40, 'bmi': 22, 'sex': 'female', 'smoker': 'no', 'region': 'southeast', 'children': 0}
+2024-11-27 19:26:34,132 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   40   22         0  female     no  southeast
+2024-11-27 19:26:34,146 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 19:26:34,160 - INFO - Prediction result: 5072.4140625
+2024-11-27 19:26:34,162 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:34] "POST /predict HTTP/1.1" 200 -
+2024-11-27 19:26:42,767 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:42] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 19:26:42,772 - INFO - Received data: {'age': 40, 'bmi': 22, 'sex': 'female', 'smoker': 'yes', 'region': 'southeast', 'children': 0}
+2024-11-27 19:26:42,785 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   40   22         0  female    yes  southeast
+2024-11-27 19:26:42,795 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 19:26:42,804 - INFO - Prediction result: 18444.4140625
+2024-11-27 19:26:42,805 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:42] "POST /predict HTTP/1.1" 200 -
+2024-11-27 19:26:51,691 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:51] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 19:26:51,702 - INFO - Received data: {'age': 40, 'bmi': 22, 'sex': 'female', 'smoker': 'no', 'region': 'southeast', 'children': 2}
+2024-11-27 19:26:51,729 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   40   22         2  female     no  southeast
+2024-11-27 19:26:51,743 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 19:26:51,757 - INFO - Prediction result: 7322.71826171875
+2024-11-27 19:26:51,759 - INFO - 127.0.0.1 - - [27/Nov/2024 19:26:51] "POST /predict HTTP/1.1" 200 -
+2024-11-27 19:27:03,975 - INFO - 127.0.0.1 - - [27/Nov/2024 19:27:03] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 19:27:03,988 - INFO - Received data: {'age': 40, 'bmi': 22, 'sex': 'male', 'smoker': 'no', 'region': 'southeast', 'children': 2}
+2024-11-27 19:27:04,018 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   40   22         2  male     no  southeast
+2024-11-27 19:27:04,030 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 19:27:04,042 - INFO - Prediction result: 7271.4755859375
+2024-11-27 19:27:04,044 - INFO - 127.0.0.1 - - [27/Nov/2024 19:27:04] "POST /predict HTTP/1.1" 200 -
+2024-11-27 19:27:10,675 - INFO - 127.0.0.1 - - [27/Nov/2024 19:27:10] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-27 19:27:10,685 - INFO - Received data: {'age': 40, 'bmi': 22, 'sex': 'male', 'smoker': 'no', 'region': 'southeast', 'children': 0}
+2024-11-27 19:27:10,711 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   40   22         0  male     no  southeast
+2024-11-27 19:27:10,723 - DEBUG - Transformed data shape: (1, 8)
+2024-11-27 19:27:10,738 - INFO - Prediction result: 4925.19482421875
+2024-11-27 19:27:10,740 - INFO - 127.0.0.1 - - [27/Nov/2024 19:27:10] "POST /predict HTTP/1.1" 200 -
+2024-11-28 10:23:46,356 - INFO - Loading model and preprocessor...
+2024-11-28 10:23:50,722 - INFO - Model loaded successfully.
+2024-11-28 10:23:50,747 - INFO - Preprocessor loaded successfully.
+2024-11-28 10:23:50,794 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-28 10:23:50,795 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-28 10:23:50,798 - INFO -  * Restarting with stat
+2024-11-28 10:23:51,471 - INFO - Loading model and preprocessor...
+2024-11-28 10:23:52,649 - INFO - Model loaded successfully.
+2024-11-28 10:23:52,659 - INFO - Preprocessor loaded successfully.
+2024-11-28 10:23:52,671 - WARNING -  * Debugger is active!
+2024-11-28 10:23:52,685 - INFO -  * Debugger PIN: 198-287-974
+2024-11-28 10:25:42,759 - INFO - 127.0.0.1 - - [28/Nov/2024 10:25:42] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-28 10:25:42,773 - INFO - Received data: {'age': 21, 'bmi': 21, 'sex': 'male', 'smoker': 'no', 'region': 'southeast', 'children': 100}
+2024-11-28 10:25:42,816 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   21   21       100  male     no  southeast
+2024-11-28 10:25:42,837 - DEBUG - Transformed data shape: (1, 8)
+2024-11-28 10:25:42,856 - INFO - Prediction result: 2544.5966796875
+2024-11-28 10:25:42,858 - INFO - 127.0.0.1 - - [28/Nov/2024 10:25:42] "POST /predict HTTP/1.1" 200 -
+2024-11-28 10:26:02,353 - INFO - 127.0.0.1 - - [28/Nov/2024 10:26:02] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-28 10:26:02,376 - INFO - Received data: {'age': 21, 'bmi': 21, 'sex': 'male', 'smoker': 'yes', 'region': 'southeast', 'children': 100}
+2024-11-28 10:26:02,399 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   21   21       100  male    yes  southeast
+2024-11-28 10:26:02,415 - DEBUG - Transformed data shape: (1, 8)
+2024-11-28 10:26:02,432 - INFO - Prediction result: 13684.810546875
+2024-11-28 10:26:02,434 - INFO - 127.0.0.1 - - [28/Nov/2024 10:26:02] "POST /predict HTTP/1.1" 200 -
+2024-11-28 10:26:25,307 - INFO - 127.0.0.1 - - [28/Nov/2024 10:26:25] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-28 10:26:25,329 - INFO - Received data: {'age': 21, 'bmi': 21, 'sex': 'male', 'smoker': 'yes', 'region': 'southeast', 'children': 1}
+2024-11-28 10:26:25,349 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   21   21         1  male    yes  southeast
+2024-11-28 10:26:25,360 - DEBUG - Transformed data shape: (1, 8)
+2024-11-28 10:26:25,375 - INFO - Prediction result: 15422.5390625
+2024-11-28 10:26:25,377 - INFO - 127.0.0.1 - - [28/Nov/2024 10:26:25] "POST /predict HTTP/1.1" 200 -
+2024-11-28 10:28:13,132 - INFO - 127.0.0.1 - - [28/Nov/2024 10:28:13] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-28 10:28:13,145 - INFO - Received data: {'age': 21, 'bmi': 21, 'sex': 'female', 'smoker': 'yes', 'region': 'southeast', 'children': 1}
+2024-11-28 10:28:13,162 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   21         1  female    yes  southeast
+2024-11-28 10:28:13,170 - DEBUG - Transformed data shape: (1, 8)
+2024-11-28 10:28:13,177 - INFO - Prediction result: 14834.88671875
+2024-11-28 10:28:13,178 - INFO - 127.0.0.1 - - [28/Nov/2024 10:28:13] "POST /predict HTTP/1.1" 200 -
+2024-11-28 10:28:45,437 - INFO - 127.0.0.1 - - [28/Nov/2024 10:28:45] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-28 10:28:45,447 - INFO - Received data: {'age': 21, 'bmi': 21, 'sex': 'female', 'smoker': 'no', 'region': 'southeast', 'children': 1}
+2024-11-28 10:28:45,462 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   21         1  female     no  southeast
+2024-11-28 10:28:45,468 - DEBUG - Transformed data shape: (1, 8)
+2024-11-28 10:28:45,479 - INFO - Prediction result: 2402.658203125
+2024-11-28 10:28:45,480 - INFO - 127.0.0.1 - - [28/Nov/2024 10:28:45] "POST /predict HTTP/1.1" 200 -
+2024-11-28 10:28:55,383 - INFO - 127.0.0.1 - - [28/Nov/2024 10:28:55] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-28 10:28:55,392 - INFO - Received data: {'age': 21, 'bmi': 21, 'sex': 'male', 'smoker': 'no', 'region': 'southeast', 'children': 1}
+2024-11-28 10:28:55,408 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   21   21         1  male     no  southeast
+2024-11-28 10:28:55,419 - DEBUG - Transformed data shape: (1, 8)
+2024-11-28 10:28:55,426 - INFO - Prediction result: 2415.518798828125
+2024-11-28 10:28:55,427 - INFO - 127.0.0.1 - - [28/Nov/2024 10:28:55] "POST /predict HTTP/1.1" 200 -
+2024-11-28 11:52:40,600 - INFO - Loading model and preprocessor...
+2024-11-28 11:52:48,201 - INFO - Model loaded successfully.
+2024-11-28 11:52:48,233 - INFO - Preprocessor loaded successfully.
+2024-11-28 11:52:48,306 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-28 11:52:48,307 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-28 11:52:48,312 - INFO -  * Restarting with stat
+2024-11-28 11:52:49,080 - INFO - Loading model and preprocessor...
+2024-11-28 11:52:50,018 - INFO - Model loaded successfully.
+2024-11-28 11:52:50,026 - INFO - Preprocessor loaded successfully.
+2024-11-28 11:52:50,034 - WARNING -  * Debugger is active!
+2024-11-28 11:52:50,036 - INFO -  * Debugger PIN: 198-287-974
+2024-11-28 11:53:20,768 - INFO - 127.0.0.1 - - [28/Nov/2024 11:53:20] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-28 11:53:20,780 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'no', 'region': 'southwest', 'children': 0}
+2024-11-28 11:53:20,804 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female     no  southwest
+2024-11-28 11:53:20,815 - DEBUG - Transformed data shape: (1, 8)
+2024-11-28 11:53:20,827 - INFO - Prediction result: 2053.958984375
+2024-11-28 11:53:20,828 - INFO - 127.0.0.1 - - [28/Nov/2024 11:53:20] "POST /predict HTTP/1.1" 200 -
+2024-11-28 11:53:30,961 - INFO - 127.0.0.1 - - [28/Nov/2024 11:53:30] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-28 11:53:30,971 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'yes', 'region': 'southwest', 'children': 0}
+2024-11-28 11:53:30,991 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female    yes  southwest
+2024-11-28 11:53:30,999 - DEBUG - Transformed data shape: (1, 8)
+2024-11-28 11:53:31,010 - INFO - Prediction result: 17801.658203125
+2024-11-28 11:53:31,012 - INFO - 127.0.0.1 - - [28/Nov/2024 11:53:31] "POST /predict HTTP/1.1" 200 -
+2024-11-30 10:39:01,618 - INFO - Loading model and preprocessor...
+2024-11-30 10:39:05,099 - INFO - Model loaded successfully.
+2024-11-30 10:39:05,115 - INFO - Preprocessor loaded successfully.
+2024-11-30 10:39:05,158 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-30 10:39:05,159 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-30 10:39:05,162 - INFO -  * Restarting with stat
+2024-11-30 10:39:05,685 - INFO - Loading model and preprocessor...
+2024-11-30 10:39:06,238 - INFO - Model loaded successfully.
+2024-11-30 10:39:06,245 - INFO - Preprocessor loaded successfully.
+2024-11-30 10:39:06,255 - WARNING -  * Debugger is active!
+2024-11-30 10:39:06,269 - INFO -  * Debugger PIN: 198-287-974
+2024-11-30 10:40:22,190 - INFO - 127.0.0.1 - - [30/Nov/2024 10:40:22] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-30 10:40:22,220 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'no', 'region': 'southwest', 'children': 0}
+2024-11-30 10:40:22,261 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female     no  southwest
+2024-11-30 10:40:22,296 - DEBUG - Transformed data shape: (1, 8)
+2024-11-30 10:40:22,311 - INFO - Prediction result: 2053.958984375
+2024-11-30 10:40:22,312 - INFO - 127.0.0.1 - - [30/Nov/2024 10:40:22] "POST /predict HTTP/1.1" 200 -
+2024-11-30 10:40:31,915 - INFO - 127.0.0.1 - - [30/Nov/2024 10:40:31] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-30 10:40:31,936 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'yes', 'region': 'southwest', 'children': 0}
+2024-11-30 10:40:31,954 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female    yes  southwest
+2024-11-30 10:40:31,966 - DEBUG - Transformed data shape: (1, 8)
+2024-11-30 10:40:31,978 - INFO - Prediction result: 17801.658203125
+2024-11-30 10:40:31,980 - INFO - 127.0.0.1 - - [30/Nov/2024 10:40:31] "POST /predict HTTP/1.1" 200 -
+2024-11-30 10:40:47,487 - INFO - 127.0.0.1 - - [30/Nov/2024 10:40:47] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-30 10:40:47,500 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'yes', 'region': 'southeast', 'children': 0}
+2024-11-30 10:40:47,521 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female    yes  southeast
+2024-11-30 10:40:47,533 - DEBUG - Transformed data shape: (1, 8)
+2024-11-30 10:40:47,546 - INFO - Prediction result: 18624.58203125
+2024-11-30 10:40:47,548 - INFO - 127.0.0.1 - - [30/Nov/2024 10:40:47] "POST /predict HTTP/1.1" 200 -
+2024-11-30 10:40:57,769 - INFO - 127.0.0.1 - - [30/Nov/2024 10:40:57] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-30 10:40:57,779 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'no', 'region': 'southeast', 'children': 0}
+2024-11-30 10:40:57,796 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female     no  southeast
+2024-11-30 10:40:57,807 - DEBUG - Transformed data shape: (1, 8)
+2024-11-30 10:40:57,819 - INFO - Prediction result: 3020.759765625
+2024-11-30 10:40:57,820 - INFO - 127.0.0.1 - - [30/Nov/2024 10:40:57] "POST /predict HTTP/1.1" 200 -
+2024-11-30 10:41:14,964 - INFO - 127.0.0.1 - - [30/Nov/2024 10:41:14] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-30 10:41:14,989 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'yes', 'region': 'southeast', 'children': 0}
+2024-11-30 10:41:15,008 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female    yes  southeast
+2024-11-30 10:41:15,018 - DEBUG - Transformed data shape: (1, 8)
+2024-11-30 10:41:15,024 - INFO - Prediction result: 18624.58203125
+2024-11-30 10:41:15,025 - INFO - 127.0.0.1 - - [30/Nov/2024 10:41:15] "POST /predict HTTP/1.1" 200 -
+2024-12-06 11:26:57,736 - INFO - Loading model and preprocessor...
+2024-12-06 11:27:03,080 - INFO - Model loaded successfully.
+2024-12-06 11:27:03,106 - INFO - Preprocessor loaded successfully.
+2024-12-06 11:27:03,188 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-06 11:27:03,190 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-06 11:27:03,194 - INFO -  * Restarting with stat
+2024-12-06 11:27:03,818 - INFO - Loading model and preprocessor...
+2024-12-06 11:27:04,377 - INFO - Model loaded successfully.
+2024-12-06 11:27:04,384 - INFO - Preprocessor loaded successfully.
+2024-12-06 11:27:04,391 - WARNING -  * Debugger is active!
+2024-12-06 11:27:04,406 - INFO -  * Debugger PIN: 120-832-883
+2024-12-06 11:27:28,994 - INFO - 127.0.0.1 - - [06/Dec/2024 11:27:28] "OPTIONS /predict HTTP/1.1" 200 -
+2024-12-06 11:27:29,011 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'no', 'region': 'southwest', 'children': 0}
+2024-12-06 11:27:29,051 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female     no  southwest
+2024-12-06 11:27:29,066 - DEBUG - Transformed data shape: (1, 8)
+2024-12-06 11:27:29,081 - INFO - Prediction result: 2053.958984375
+2024-12-06 11:27:29,082 - INFO - 127.0.0.1 - - [06/Dec/2024 11:27:29] "POST /predict HTTP/1.1" 200 -
+2024-12-06 11:28:40,884 - INFO - 127.0.0.1 - - [06/Dec/2024 11:28:40] "OPTIONS /predict HTTP/1.1" 200 -
+2024-12-06 11:28:40,911 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'yes', 'region': 'southwest', 'children': 0}
+2024-12-06 11:28:40,929 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female    yes  southwest
+2024-12-06 11:28:40,943 - DEBUG - Transformed data shape: (1, 8)
+2024-12-06 11:28:40,956 - INFO - Prediction result: 17801.658203125
+2024-12-06 11:28:40,958 - INFO - 127.0.0.1 - - [06/Dec/2024 11:28:40] "POST /predict HTTP/1.1" 200 -
+2024-12-06 11:29:06,765 - INFO - 127.0.0.1 - - [06/Dec/2024 11:29:06] "OPTIONS /predict HTTP/1.1" 200 -
+2024-12-06 11:29:06,864 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'male', 'smoker': 'yes', 'region': 'southwest', 'children': 0}
+2024-12-06 11:29:06,888 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   21   22         0  male    yes  southwest
+2024-12-06 11:29:06,900 - DEBUG - Transformed data shape: (1, 8)
+2024-12-06 11:29:06,908 - INFO - Prediction result: 18023.73046875
+2024-12-06 11:29:06,909 - INFO - 127.0.0.1 - - [06/Dec/2024 11:29:06] "POST /predict HTTP/1.1" 200 -
+2024-12-06 11:30:32,373 - INFO - 127.0.0.1 - - [06/Dec/2024 11:30:32] "OPTIONS /predict HTTP/1.1" 200 -
+2024-12-06 11:30:32,390 - INFO - Received data: {'age': 21, 'bmi': 25, 'sex': 'male', 'smoker': 'no', 'region': 'southwest', 'children': 0}
+2024-12-06 11:30:32,406 - DEBUG - Input data as DataFrame:    age  bmi  children   sex smoker     region
+0   21   25         0  male     no  southwest
+2024-12-06 11:30:32,411 - DEBUG - Transformed data shape: (1, 8)
+2024-12-06 11:30:32,422 - INFO - Prediction result: 4688.9521484375
+2024-12-06 11:30:32,423 - INFO - 127.0.0.1 - - [06/Dec/2024 11:30:32] "POST /predict HTTP/1.1" 200 -
+2024-12-20 13:18:24,965 - INFO - Loading model and preprocessor...
+2024-12-20 13:18:31,432 - INFO - Model loaded successfully.
+2024-12-20 13:18:31,499 - INFO - Preprocessor loaded successfully.
+2024-12-20 13:18:31,581 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-20 13:18:31,583 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-20 13:18:31,625 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-20 13:18:32,185 - INFO - Loading model and preprocessor...
+2024-12-20 13:18:32,855 - INFO - Model loaded successfully.
+2024-12-20 13:18:32,868 - INFO - Preprocessor loaded successfully.
+2024-12-20 13:18:32,884 - WARNING -  * Debugger is active!
+2024-12-20 13:18:32,888 - INFO -  * Debugger PIN: 905-142-498
+2024-12-20 13:23:05,295 - INFO - 127.0.0.1 - - [20/Dec/2024 13:23:05] "OPTIONS /predict HTTP/1.1" 200 -
+2024-12-20 13:23:05,307 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'no', 'region': 'southwest', 'children': 0}
+2024-12-20 13:23:05,355 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female     no  southwest
+2024-12-20 13:23:05,374 - DEBUG - Transformed data shape: (1, 8)
+2024-12-20 13:23:05,392 - INFO - Prediction result: 2053.958984375
+2024-12-20 13:23:05,394 - INFO - 127.0.0.1 - - [20/Dec/2024 13:23:05] "POST /predict HTTP/1.1" 200 -
+2024-12-20 13:23:09,538 - INFO - 127.0.0.1 - - [20/Dec/2024 13:23:09] "OPTIONS /predict HTTP/1.1" 200 -
+2024-12-20 13:23:09,553 - INFO - Received data: {'age': 21, 'bmi': 22, 'sex': 'female', 'smoker': 'yes', 'region': 'southwest', 'children': 0}
+2024-12-20 13:23:09,568 - DEBUG - Input data as DataFrame:    age  bmi  children     sex smoker     region
+0   21   22         0  female    yes  southwest
+2024-12-20 13:23:09,575 - DEBUG - Transformed data shape: (1, 8)
+2024-12-20 13:23:09,584 - INFO - Prediction result: 17801.658203125
+2024-12-20 13:23:09,585 - INFO - 127.0.0.1 - - [20/Dec/2024 13:23:09] "POST /predict HTTP/1.1" 200 -
+2024-12-20 13:57:49,988 - INFO -  * Detected change in 'C:\\Users\\khush\\OneDrive\\Desktop\\Minor Website\\app.py', reloading
+2024-12-20 13:57:51,684 - INFO -  * Restarting with watchdog (windowsapi)
+2024-12-20 13:57:57,193 - INFO - Loading model and preprocessor...

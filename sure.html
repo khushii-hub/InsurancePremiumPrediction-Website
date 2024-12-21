@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PremiumPaw</title>
+    <link rel="stylesheet" href="insurance.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="paw.png" alt="PremiumPaw Logo" class="logo">
+            <h1>PremiumPaw</h1>
+        </div>
+        <p class="tagline">Purr-fect Predictions for Your Insurance Needs</p>
+    </header>
+
+    <main>
+        <form id="predictionForm">
+            <label for="age">Age:</label>
+            <input type="number" id="age" required>
+
+            <label for="bmi">BMI:</label>
+            <input type="number" step="0.1" id="bmi" required>
+
+            <label for="gender">Gender:</label>
+            <select id="gender">
+                <option value="0">Male</option>
+                <option value="1">Female</option>
+            </select>
+
+            <label for="smoker">Smoker:</label>
+            <select id="smoker">
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" required>
+
+            <label for="children">Number of Children:</label>
+            <input type="number" id="children" required>
+
+            <label for="hereditary_diseases">Hereditary Diseases:</label>
+            <input type="text" id="hereditary_diseases">
+
+            <button type="button" onclick="predictPremium()">Predict</button>
+        </form>
+        <div id="result"></div>
+    </main>
+
+    <script src="insurance.js"></script>
+</body>
+</html>
